@@ -11,7 +11,364 @@
 <thead>
 <tr><td rowspan="1" colspan="3">0005_Home_DashboardLand</td></tr>
 </thead><tbody>
-
+<tr>
+	<td>open</td>
+	<td>api/repos/:public:ctools-samples:PublicDemo:Dashboardland:Dashboardland.wcdf/generatedContent</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementNotPresent</td>
+	<td>css=div.blockUI.blockOverlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTitle</td>
+	<td>Dashboardland</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Dashboardland</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=body</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr/td</td>
+	<td>All Parks</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[2]/td</td>
+	<td>DisneyWorld</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[3]/td</td>
+	<td>DisneyLand</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[4]/td</td>
+	<td>EuroDisney</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='totalFansObjTable']/thead/tr/th</td>
+	<td>Total Fans</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/thead/tr/th</td>
+	<td>Park</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/thead/tr/th</td>
+	<td>Fans Club</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr/td</td>
+	<td>Mickey</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr[2]/td</td>
+	<td>Minnie</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr[3]/td</td>
+	<td>Donald Duck</td>
+</tr>
+<!--2003 Jan-->
+<tr>
+	<td>select</td>
+	<td>//div[@id='yearObj']/select</td>
+	<td>2003</td>
+</tr>
+<tr>
+	<td>waitForElementNotPresent</td>
+	<td>css=div.blockUI.blockOverlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[@id='monthObj']/select</td>
+	<td>Jan</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementNotPresent</td>
+	<td>css=div.blockUI.blockOverlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr/td[2]</td>
+	<td>1,357</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[2]/td[2]</td>
+	<td>231</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[3]/td[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[4]/td[2]</td>
+	<td>1,126</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='totalFansObjTable']/tbody/tr/td</td>
+	<td>129,754</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='totalFansObjTable']/tbody/tr/td[2]</td>
+	<td>-100.0%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr/td[2]</td>
+	<td>41,192</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr[2]/td[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr[3]/td[2]</td>
+	<td>46,827</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr/td[3]</td>
+	<td>-100.0%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[2]/td[3]</td>
+	<td>-100.0%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[3]/td[3]</td>
+	<td>-100.0%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[4]/td[3]</td>
+	<td>-100.0%</td>
+</tr>
+<!--2004 Feb-->
+<tr>
+	<td>select</td>
+	<td>//div[@id='yearObj']/select</td>
+	<td>2004</td>
+</tr>
+<tr>
+	<td>waitForElementNotPresent</td>
+	<td>css=div.blockUI.blockOverlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[@id='monthObj']/select</td>
+	<td>Feb</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementNotPresent</td>
+	<td>css=div.blockUI.blockOverlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr/td[2]</td>
+	<td>3,117</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr/td[3]</td>
+	<td>-3.9%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=innerCol1</td>
+	<td>Bestsellers <br /> 158M24M</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[2]/td[2]</td>
+	<td>1,101</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[2]/td[3]</td>
+	<td>65.6%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[3]/td[2]</td>
+	<td>737</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[3]/td[3]</td>
+	<td>-100.0%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[4]/td[2]</td>
+	<td>1,279</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[4]/td[3]</td>
+	<td>-36.1%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='totalFansObjTable']/tbody/tr/td</td>
+	<td>318,699</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='totalFansObjTable']/tbody/tr/td[2]</td>
+	<td>0.7%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr/td[2]</td>
+	<td>137,641</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr[2]/td[2]</td>
+	<td>49,067</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr[3]/td[2]</td>
+	<td>25,042</td>
+</tr>
+<!--2005 Jan-->
+<tr>
+	<td>select</td>
+	<td>//div[@id='yearObj']/select</td>
+	<td>2005</td>
+</tr>
+<tr>
+	<td>waitForElementNotPresent</td>
+	<td>css=div.blockUI.blockOverlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//div[@id='monthObj']/select</td>
+	<td>Mar</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementNotPresent</td>
+	<td>css=div.blockUI.blockOverlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr/td[2]</td>
+	<td>4,207</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=innerCol1</td>
+	<td>Bestsellers <br /> 95M25M68M</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr/td[3]</td>
+	<td>24.0%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[2]/td[2]</td>
+	<td>1,205</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[2]/td[3]</td>
+	<td>18.3%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[3]/td[2]</td>
+	<td>694</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[3]/td[3]</td>
+	<td>232.1%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[4]/td[2]</td>
+	<td>2,264</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='visitsObjTable']/tbody/tr[4]/td[3]</td>
+	<td>4.6%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='totalFansObjTable']/tbody/tr/td</td>
+	<td>413,531</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='totalFansObjTable']/tbody/tr/td[2]</td>
+	<td>15.5%</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr/td[2]</td>
+	<td>98,751</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr[2]/td[2]</td>
+	<td>47,831</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//table[@id='fansClubObjTable']/tbody/tr[3]/td[2]</td>
+	<td>83,112</td>
+</tr>
 </tbody></table>
 </body>
 </html>
